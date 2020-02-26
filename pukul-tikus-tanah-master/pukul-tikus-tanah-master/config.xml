@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.gamepukul.webtoapk"
+    versionCode = "10"
+    version     = "1.0.2" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Pukul Pala cong</name>
+
+  <description>
+      Belajar Compres Apk
+  </description>
+
+  <author href="" email="naruchigo00@gmail.com">
+      Adhy
+  </author>
+
+  <plugin name="cordova-plugin-whitelist" version ="1"/>
+  <access origin="*"/>
+  <allow-intent href="https://*/*" />
+  <allow-navigation href="https://*/*" />
+
+</widget>
